@@ -1,0 +1,168 @@
+/* *{
+    border: 2px solid red;
+} */
+body{
+    margin: 0px;
+}
+
+.blue-background{
+    background-color: #1F2937;
+}
+
+.gray-background{
+    background-color: #e5e7eb;
+}
+
+.left-right-whitespace {
+    margin-left: 225px;
+    margin-right: 225px;
+}
+
+.sections{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    
+}
+
+.logo{
+    font-size: 24px;
+}
+
+.logo,
+.intro-title{
+    color: #f9faf8;
+}
+
+
+.intro-paragraph{
+    color:#e5e7eb;
+    font-size: 18px;
+}
+
+.header-links ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    color: #e5e7eb;
+    font-size: 18px
+}
+
+.intro-section{
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+    flex-direction: row;
+    color: white;
+    
+}
+
+.intro-image{
+    border: 2px solid red;
+    width: 500px;
+    height: 200px;
+    margin-bottom: 100px;
+    flex-shrink: 0;
+}
+
+.intro-paragraph p{
+    margin: 0px;
+    margin-bottom: 10px;
+}
+.intro-section .intro-title{
+    font-size: 48px;
+    font-weight:bolder;
+}
+
+button.sign-up-button{
+    background-color:#3882f6;
+    color:white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px 10px 20px;
+    
+}
+
+
+.information p {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin: 45px 0px 45px 0px;
+}
+
+.information .info .info-box{
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.informations{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    max-width: 210px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.quotes{
+    margin: 100px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.quote-author{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.quote,
+.quote-author{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.sign-up-content{
+    margin: 100px;
+    padding: 30px 200px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    border-radius: 10px;
+}
+
+.sign-up-button-inverse{
+    background-color: #3882f6;
+    color:white;
+    border: 2px solid white;
+    border-radius: 8px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.footer{
+    color: #e5e7eb;
+    text-align: center;
+    margin: 40px 0px 40px 0px;
+}
